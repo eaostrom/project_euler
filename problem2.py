@@ -6,6 +6,7 @@ fibonacci=[1,2]
 for x in range(100000):
     x= fibonacci[x]+fibonacci[x+1]
     fibonacci.append(x)
+ #this range is arbitrary. Hopefully it includes all values under 4 million.
 
 result= []
 for index_a,a in enumerate(fibonacci):
