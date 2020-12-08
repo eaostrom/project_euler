@@ -1,5 +1,5 @@
 #Fibonacci sequence
-#First 10 terms: 1,2,3,5,8,13,34,55,89
+#First several terms: 1,2,3,5,8,13,34,55,89
 #Find sum of even-valued terms under 4 million (inclusive)
 
 fibonacci=[1,2]
