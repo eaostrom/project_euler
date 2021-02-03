@@ -1,4 +1,3 @@
-last = ''
 count = 0
 for n in range (1,1001):
     letters = ''
@@ -27,7 +26,6 @@ for n in range (1,1001):
             if s[-2:] == '18': letters += 'eighteen'
             if s[-2:] == '19': letters += 'nineteen'
             count += len(letters)
-            print(letters)
             continue
         elif s[-2] == '1': letters += 'ten'
         elif s[-2] == '2': letters += 'twenty'
@@ -48,5 +46,4 @@ for n in range (1,1001):
     if s[-1] == '8': letters += 'eight'
     if s[-1] == '9': letters += 'nine'
     count += len(letters)
-    print(letters)
 print(count)
