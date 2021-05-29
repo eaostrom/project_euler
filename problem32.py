@@ -1,5 +1,5 @@
 #Note: this is a general solution for numbers that are pandigital  1 to len(s)
-#Line 18 makes it specific for 1-9 pandigital numbers
+#Line 19 makes it specific for 1-9 pandigital numbers
 pandigital = {}
 a = 1
 for a in range(1,10000):
